@@ -41,3 +41,101 @@ side we need to know how to define interfaces (web pages) using
 HTML and CSS and handle user interactions with JavaScript. On the server side,
 we need a server side program that can access resources not available on the
 client side, e.g. a file system or a database.
+
+## What is HTML?
+
+[HTML (HyperText Markup Language)](https://www.w3schools.com/html/html_intro.asp)
+is a language for defining web pages. Go to
+[https://www.w3schools.com/](https://www.w3schools.com/), right click on the
+page, and select "View Page Source" to see an example HTML. The HTML code tells
+the browser what should be on the web page and how it should be displayed, so
+it contains both content and style information. The best practice is separate
+the content and the style/presentation. So, we use HTML strictly for content
+and structure and use [CSS](https://www.w3schools.com/css/css_intro.asp)
+for styling.
+
+An HTML file is a plain text file consists of HTML elements. Each element is
+defined using a tag. The tag name is the element name. Some elements can contain
+other elements, e.g. `<p>`, some have textual content, some have both, and some
+have none. Here is a level 1 heading element with textual content.
+
+```
+<h1> heading </h1>
+---- ------- -----
+ |    |        |
+ |    content  closing tag
+ opening tag
+
+```
+
+Elements can have attributes (required or optional) as modifiers to further define them.
+Here is an example of a "anchor" element that defines a HyperLink using
+a piece of text, "W3", point to an URL.
+
+```
+<a href="https://www.w3.org"> W3 </a>
+-- ---- --------------------     ----
+|   |            |                 |
+|   |            attribute value   closing tag
+|   attribute name
+opening tag
+```
+
+Here is an example HTML file with a variety of elements:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HTML Example</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+    <ul>
+      The secrete to happiness:
+      <li>eat</li>
+      <li>drink</li>
+      <li>be merry</li>
+    </ul>
+    You can learn about HTML at <a href="https://www.w3schools.com/"> w3schools </a>.
+  </body>
+</html>
+```
+You can try the code at https://repl.it/@lubaochuan/DecimalWelcomeMicrocode
+
+The following is an example `meta` tag that describes the content
+of this web page.
+```
+<meta name="description" content="Learn to HTML and CSS to build web pages">
+```
+We can also use a `meta` tag to tell web crawlers not to following
+links on a web page.
+```
+<meta name="robots" content="nofollow">
+```
+
+To avoid mistakes in HTML we can use W3C's Markup Validation Service
+to help validate HTML documents:https://validator.w3.org/
+
+### semantic tags
+https://www.w3schools.com/html/html5_semantic_elements.asp
+
+block and inline elements
+
+https://repl.it/@lubaochuan/SaddlebrownThirstyCosmos
+
+validators
+
+HTML5 https://repl.it/@lubaochuan/IndianredImaginativeCommercialsoftware
+
+CSS https://repl.it/@lubaochuan/StaticWholeDevelopers
+
+## What is CSS?
+basic CSS
+https://repl.it/@lubaochuan/TestyFumblingBytes
+
+page layout
+https://repl.it/@lubaochuan/ImmenseFussyAutomatedinformationsystem

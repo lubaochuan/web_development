@@ -1,5 +1,6 @@
 site_name: Web Development
 nav:
   - Home: index.md
+  - HTML & CSS: html_css.md
   - About: about.md
 theme: readthedocs
