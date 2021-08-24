@@ -18,7 +18,8 @@ server mode.  Most of the time, we (human users) interact
 with the web using a program (user agent) called a web browser. The browser
 speaks the HTTP protocol so that we don't have to.
 
-When you type a Universal Resource Locator (URL or web address/link) in your favorite browser on an Internet enabled device. Your browser will send a request to the
+When you type a Universal Resource Locator (URL or web address/link) in your
+favorite browser on an Internet enabled device. Your browser will send a request to the
 "resource" identified by the URL and if it exists that computer that has the
 resource will send a response back to your browser. The browser will interpret
 the result and render it as a web page. If you click a link on a web page, the
@@ -53,6 +54,8 @@ it contains both content and style information. The best practice is separate
 the content and the style/presentation. So, we use HTML strictly for content
 and structure and use [CSS](https://www.w3schools.com/css/css_intro.asp)
 for styling.
+
+## HTML Elements
 
 An HTML file is a plain text file consists of HTML elements. Each element is
 defined using a tag. The tag name is the element name. Some elements can contain
@@ -121,7 +124,62 @@ To avoid mistakes in HTML we can use W3C's Markup Validation Service
 to help validate HTML documents:https://validator.w3.org/
 
 ### semantic tags
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
 https://www.w3schools.com/html/html5_semantic_elements.asp
+
+The `<section>` tag defines, in a document, a section -
+a thematic grouping of content, typically with a heading.
+
+The `<article>` tag defines independent, self-contained content, e.g. forum post, blog post, and newspaper article.
+
+The `<header>` tag defines a container for introductory content
+or a set of navigational links. It typically contains one or more
+heading elements (`<h1>...<h6>`), logo or icon, and authorship
+information.
+
+The `<footer>` tag defines a footer for a document or section.
+It typically contains authorship information, copyright information,
+contact information, sitemap, back to top links, and related documents.
+
+The `<nav>` tag defines a set of (major) navigation links.
+
+The `<aside>` tag defines some content aside from the content it
+is placed in (like a sidebar).
+
+The `<figure>` tag defines self-contained content, e.g. illustrations,
+diagrams, photos, and code listings.
+
+The `<figcaption>` tag defines a caption for a `<figure>` element.
+
+## Page Layout
+
+An HTML file defines the content and the structure of a web page using HTML elements that are nested in a tree structure. This structure along with the CSS rules determines the layout of the page - which element is in which element and their position on the web page.
+
+Each element is represented internally as a box (the box model):
+
+![box_model](images/box_model.png)
+
+responsive layout example
+https://repl.it/@lubaochuan/HumbleFrighteningLinuxkernel
+
+blog layout example
+https://repl.it/@lubaochuan/UncomfortableAnguishedBookmark
+
+CSS `flexbox` layout
+https://www.w3schools.com/css/css3_flexbox.asp
+
 
 block and inline elements
 
@@ -137,5 +195,53 @@ CSS https://repl.it/@lubaochuan/StaticWholeDevelopers
 basic CSS
 https://repl.it/@lubaochuan/TestyFumblingBytes
 
-page layout
+page layout using float
+https://repl.it/@lubaochuan/InnocentElatedVirtualmemory
+
+page layout using flex
+https://repl.it/@lubaochuan/NegativeOrangeMetric
+
+page layout using grid
+https://repl.it/@lubaochuan/MediumorchidAgileGraph
+
+page layout with semantic elements
 https://repl.it/@lubaochuan/ImmenseFussyAutomatedinformationsystem
+
+semantic markup
+
+CSS reset
+```
+* {
+  margin: 0;
+  padding: 0;
+}
+```
+
+form with label
+https://repl.it/@lubaochuan/ScientificSpecificDownloads
+
+checkboxes (radio)
+https://repl.it/@lubaochuan/WearyMotionlessProblems
+
+fieldset
+https://repl.it/@lubaochuan/ActiveHarshMysql
+
+styled form
+https://repl.it/@lubaochuan/CrispModestPixels
+
+Responsive
+
+show warning
+https://repl.it/@lubaochuan/CarefulTurbulentVolume
+
+change page layout
+https://repl.it/@lubaochuan/SelfreliantHumblePolygons
+
+
+
+custom element
+https://repl.it/@lubaochuan/OverdueQuickPcboard
+https://repl.it/@lubaochuan/ChocolateLongDatalogs
+
+extend a built-in element
+https://repl.it/@lubaochuan/BossyWellwornPasswords
