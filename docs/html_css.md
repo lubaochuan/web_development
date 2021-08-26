@@ -192,6 +192,19 @@ HTML5 https://repl.it/@lubaochuan/IndianredImaginativeCommercialsoftware
 CSS https://repl.it/@lubaochuan/StaticWholeDevelopers
 
 ## What is CSS?
+
+### Colors 
+
+First example https://replit.com/@lubaochuan/StarryPeacefulPaintprogram
+
+All colors https://www.w3schools.com/css/css_colors.asp
+
+### Fonts
+
+First example https://replit.com/@lubaochuan/DelectableBoilingRelationaldatabase
+
+Fonts reference https://www.w3schools.com/css/css_font.asp
+
 basic CSS
 https://repl.it/@lubaochuan/TestyFumblingBytes
 
