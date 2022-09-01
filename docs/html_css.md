@@ -125,44 +125,29 @@ to help validate HTML documents:https://validator.w3.org/
 
 ### semantic tags
 
-<article>
-<aside>
-<details>
-<figcaption>
-<figure>
-<footer>
-<header>
-<main>
-<mark>
-<nav>
-<section>
-<summary>
-<time>
-https://www.w3schools.com/html/html5_semantic_elements.asp
-
-The `<section>` tag defines, in a document, a section -
-a thematic grouping of content, typically with a heading.
-
-The `<article>` tag defines independent, self-contained content, e.g. forum post, blog post, and newspaper article.
-
-The `<header>` tag defines a container for introductory content
+* `<article>` tag defines independent, self-contained content, e.g. forum post, blog post, and newspaper article.
+* `<aside>` tag defines some content aside from the content it
+is placed in (like a sidebar).
+* `<details>`
+* `<figcaption>` tag defines a caption for a `<figure>` element.
+* `<figure>` tag defines self-contained content, e.g. illustrations,
+diagrams, photos, and code listings.
+* `<footer>` tag defines a footer for a document or section.
+It typically contains authorship information, copyright information,
+contact information, sitemap, back to top links, and related documents.
+* `<header>` tag defines a container for introductory content
 or a set of navigational links. It typically contains one or more
 heading elements (`<h1>...<h6>`), logo or icon, and authorship
 information.
+* `<main>`
+* `<mark>`
+* `<nav>` tag defines a set of (major) navigation links.
+* `<section>` tag defines, in a document, a section -
+a thematic grouping of content, typically with a heading.
+* `<summary>`
+* `<time>`
 
-The `<footer>` tag defines a footer for a document or section.
-It typically contains authorship information, copyright information,
-contact information, sitemap, back to top links, and related documents.
-
-The `<nav>` tag defines a set of (major) navigation links.
-
-The `<aside>` tag defines some content aside from the content it
-is placed in (like a sidebar).
-
-The `<figure>` tag defines self-contained content, e.g. illustrations,
-diagrams, photos, and code listings.
-
-The `<figcaption>` tag defines a caption for a `<figure>` element.
+https://www.w3schools.com/html/html5_semantic_elements.asp
 
 ## Page Layout
 
@@ -194,6 +179,34 @@ CSS https://repl.it/@lubaochuan/StaticWholeDevelopers
 
 ## What is CSS?
 
+### Basic CSS rule syntax
+```
+selector {
+  property: value;
+  property: value;
+  ...
+  property: value;
+}
+```
+The selector can be a tag name, an id attribute, a class or pseudo-class name, a "target attribute" value, or the combinations of the above.
+
+### CSS Selectors
+https://www.w3schools.com/cssref/css_selectors.asp
+
+### Cascading rules
+CSS rules are called Cascading Style Sheets rules because the properties of an element [cascade](https://www.merriam-webster.com/dictionary/cascade) together in this order:
+* browser's default styles (reference)
+* external style sheet files (in a `<link>` tag)
+* internal style sheets (in a `<style>` tag in the page header)
+* inline style (the `style` attribute of an HTML element)
+
+### Inheriting styles
+![inheriting example](images/inheriting.png)
+
+* when multiple styles apply to an element, they are inherited
+* a more tightly matching rule can override a more general inherited rule
+* not all properties are inherited (notice link's color above)
+
 ### Colors 
 
 First example https://replit.com/@lubaochuan/StarryPeacefulPaintprogram
@@ -220,6 +233,7 @@ https://repl.it/@lubaochuan/MediumorchidAgileGraph
 
 page layout with semantic elements
 https://repl.it/@lubaochuan/ImmenseFussyAutomatedinformationsystem
+
 
 semantic markup
 
