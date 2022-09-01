@@ -124,6 +124,7 @@ To avoid mistakes in HTML we can use W3C's Markup Validation Service
 to help validate HTML documents:https://validator.w3.org/
 
 ### semantic tags
+
 <article>
 <aside>
 <details>
@@ -250,11 +251,11 @@ https://repl.it/@lubaochuan/CarefulTurbulentVolume
 change page layout
 https://repl.it/@lubaochuan/SelfreliantHumblePolygons
 
-
-
 custom element
 https://repl.it/@lubaochuan/OverdueQuickPcboard
 https://repl.it/@lubaochuan/ChocolateLongDatalogs
 
 extend a built-in element
 https://repl.it/@lubaochuan/BossyWellwornPasswords
+
+
