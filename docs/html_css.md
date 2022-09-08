@@ -163,6 +163,8 @@ https://repl.it/@lubaochuan/HumbleFrighteningLinuxkernel
 blog layout example
 https://repl.it/@lubaochuan/UncomfortableAnguishedBookmark
 
+blog layout example with flexbox https://replit.com/@lubaochuan/KhakiRealisticProspect
+
 CSS `flexbox` layout
 https://www.w3schools.com/css/css3_flexbox.asp
 
